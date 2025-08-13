@@ -16,7 +16,8 @@ A Node.js Express server that integrates with Anvil API to generate and manage P
 ### 1. Anvil Account Setup
 
 1. Go to [Anvil](https://www.useanvil.com/) and create a developer account
-2. Once logged in, upload your PDF template
+2. Once logged in, upload this PDF template: [california-standard-residential-lease-agreement-form.pdf](https://github.com/user-attachments/files/21763784/california-standard-residential-lease-agreement-form.pdf)
+
 3. Get your API key from the Anvil dashboard
 4. Note your template ID for use in the application
 
