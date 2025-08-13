@@ -85,6 +85,11 @@ npm start
 
 The server will start on `http://localhost:3000` (or the port specified in the `PORT` environment variable).
 
+Once running you will be brought to a basic UI made in HTML that will take inputs which will be used to create the pdf.
+
+<img width="802" height="801" alt="image" src="https://github.com/user-attachments/assets/de594321-ebb4-4bb6-9041-7ad73a56f316" />
+
+
 ## API Endpoints
 
 ### PDF Generation
