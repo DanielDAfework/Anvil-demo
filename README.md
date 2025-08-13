@@ -9,7 +9,6 @@ A Node.js Express server that integrates with Anvil API to generate and manage P
 - RESTful API endpoints for agreement management
 - File management for generated PDFs
 - Error handling middleware
-- Health check endpoint
 
 ## Prerequisites
 
@@ -23,8 +22,7 @@ A Node.js Express server that integrates with Anvil API to generate and manage P
 
 ### Template Aliases
 The system uses the following aliases for agreement dates:
-Make sure to set these aliases in your template
-- `agreementDate` - Full date string
+Make sure to set these aliases in your template, these will repleace the first three boxes in the templates.
 - `agreementMonth` - Month component
 - `agreementDay` - Day component  
 - `agreementYear` - Year component (last two digits, format: YY)
@@ -104,9 +102,6 @@ Once running you will be brought to a basic UI made in HTML that will take input
 ### File Management
 - **GET** `/agreements/[filename]` - Direct access to download PDF files
 
-### Health & Status
-- **GET** `/` - Server status and welcome message
-- **GET** `/health` - Server health status and uptime
 
 ## Data Structure
 
