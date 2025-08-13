@@ -5,7 +5,7 @@ A Node.js Express server that integrates with Anvil API to generate and manage P
 ## Features
 
 - PDF generation using Anvil API
-- PostgreSQL database for storing agreement data
+- PostgreSQL database for storing agreement data using bookshelf orm to manage queries.
 - RESTful API endpoints for agreement management
 - File management for generated PDFs
 - Error handling middleware
@@ -98,10 +98,6 @@ Once running you will be brought to a basic UI made in HTML that will take input
 - **GET** `/agreements` - Get all agreements from database
 - **GET** `/agreements/formatted` - Get all agreements in formatted structure
 - **GET** `/agreements/:id` - Get specific agreement by ID
-
-### File Management
-- **GET** `/agreements/[filename]` - Direct access to download PDF files
-
 
 ## Data Structure
 
