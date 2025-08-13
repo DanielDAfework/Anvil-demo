@@ -38,7 +38,7 @@ Make sure to set these aliases in your template, these will repleace the first t
 
 ### Step 1: Clone and Install Dependencies
 ```bash
-git clone <repository-url>
+git clone https://github.com/DanielDAfework/Anvil-demo.git
 cd anvil-demo2
 npm install
 ```
